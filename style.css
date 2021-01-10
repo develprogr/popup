@@ -3,6 +3,19 @@ body {
     background-size: cover;
 }
 
+#call__modal {
+    width: 200px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: #fff;
+    margin: 30px 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #modal__shadow {
     background-color: #000;
     opacity: .9;
@@ -19,13 +32,12 @@ body {
     border: 2px solid;
     border-radius: 3px;
     padding: 20px 30px 30px;
-    flex-wrap: wrap;
     text-align: center;
-    position: fixed; 
+    position: fixed;
     top: 10%;
     left: 50%;
      /* Выравниевание по центру x y z */
-    transform: translate(-50%, 0);  
+    transform: translate(-50%, 0);
     z-index: 15;
 }
 
@@ -75,15 +87,3 @@ body {
     transition: opacity .3s;
 }
 
-#call__modal {
-    width: 200px;
-    height: 30px;
-    border: 1px solid;
-    border-radius: 3px;
-    background-color: #fff;
-    margin: 30px 30px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
